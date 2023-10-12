@@ -22,3 +22,6 @@ if uploaded_csv is not None:
 import streamlit as st
 
 st.balloons()
+st.snow()
+st.fireworks()
+
