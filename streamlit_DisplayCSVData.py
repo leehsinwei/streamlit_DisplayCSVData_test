@@ -11,10 +11,14 @@ Created on Mon May 22 08:58:05 2023
 import streamlit as st
 import pandas as pd
 
-st.title(':cry: 主賓小老弟，我想下課！ :cry:')
+st.title(':cry: 黑蛋，您好！ :cry:')
 uploaded_csv = st.file_uploader('選擇您要上傳的CSV檔')
 
 if uploaded_csv is not None:
     df = pd.read_csv(uploaded_csv)
     st.header('您所上傳的CSV檔內容：')
     st.dataframe(df)
+
+import streamlit as st
+
+st.balloons()
