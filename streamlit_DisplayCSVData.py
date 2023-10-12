@@ -23,5 +23,5 @@ import streamlit as st
 
 st.balloons()
 st.snow()
-st.firework()
+st.cry()
 
